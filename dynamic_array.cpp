@@ -22,6 +22,7 @@ int main()
     {
         cout<<*(arr+i)<<" ";
     }
- 
+
+    delete[] arr;
  
 }
